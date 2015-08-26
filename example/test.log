@@ -17,7 +17,7 @@ Content-Length: 34
 Connection: keep-alive
 Range: 0-43008/129027,86018-129026/129027
 
-0-43008/129027,86018-129026/129027[minggui@bogon app_upload]$ 
+0-43008/129027,86018-129026/129027
 
 [minggui@bogon app_upload]$ php test2.php 
 HTTP/1.1 200 OK
