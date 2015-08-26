@@ -9,3 +9,10 @@ Documentation for this module could be found under following URL:
 
     http://www.grid.net.ru/nginx/upload.ru.html
 
+
+  * 断点续传
+	http://www.grid.net.ru/nginx/resumable_uploads.en.html
+
+  * 使用示例
+    见example文件夹
+
