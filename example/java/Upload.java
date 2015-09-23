@@ -43,7 +43,7 @@ public class Upload {
 
             httppost.setHeader("Content-Disposition", "attachment; name=\"file1\"; filename=\""+iso+"\"");
             httppost.setHeader("Cookie", "User=loginUser;");
-            httppost.setHeader("X-Content-Range", "bytes 0-" + (fileEntity.getContentLength() - 1) + "/" + fileEntity.getContentLength());
+            httppost.setHeader("X-Content-Range", "bytes 0-" + (fileEntity.getContentLength() - 1) + "/" + length);
             httppost.setHeader("Session-ID", "111");
 
             RequestConfig config = RequestConfig.custom()
