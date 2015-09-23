@@ -1,0 +1,40 @@
+---------抓包信息---------
+
+---------请求----------
+
+POST /android/v1.0/upload.html?debug=1 HTTP/1.1
+
+Content-Disposition: attachment; name="file1"; filename="hello中国人.mp4"
+
+Cookie: Puser=vissh;
+
+X-Content-Range: bytes 0-1/2
+
+Session-ID: 111
+
+Content-Length: 2
+
+Content-Type: application/octet-stream
+
+Host: dev.upload.4399youpai.com
+
+User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0)
+
+Accept-Encoding: gzip,deflate
+
+
+
+aa
+
+
+
+-------返回--------
+
+<pre>
+array (
+  'file1_name' => 'hello中国人.mp4',
+  'file1_content_type' => 'application/octet-stream',
+  'file1_path' => '/data/tmp/upload_tmp/111',
+  'file1_md5' => '',
+  'file1_size' => '2',
+)</pre>
